@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   ft_spec_binary.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tafocked <tafocked@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/04 16:43:19 by tafocked          #+#    #+#             */
-/*   Updated: 2024/01/11 20:00:44 by tafocked         ###   ########.fr       */
+/*   Created: 2024/01/09 17:43:36 by tafocked          #+#    #+#             */
+/*   Updated: 2024/01/09 17:44:17 by tafocked         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
+#include "ft_printf.h"
 
-# include <signal.h>
-# include "../libft/libft.h"
-
-#endif
+int	ft_spec_binary(unsigned int un)
+{
+	return (ft_putunbr_base(un, "01"));
+}

@@ -6,7 +6,7 @@
 #    By: tafocked <tafocked@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/08 17:18:53 by tafocked          #+#    #+#              #
-#    Updated: 2024/01/04 19:39:24 by tafocked         ###   ########.fr        #
+#    Updated: 2024/01/11 19:06:21 by tafocked         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,6 +51,7 @@ MEMORY	=	memory/ft_bzero.c \
 
 PRINTF	=	printf/ft_printf.c \
 			printf/ft_putunbr_base.c \
+			printf/ft_spec_binary.c \
 			printf/ft_spec_char.c \
 			printf/ft_spec_decimal.c \
 			printf/ft_spec_hexalower.c \
@@ -61,6 +62,7 @@ PRINTF	=	printf/ft_printf.c \
 
 STRING	=	string/ft_split.c \
 			string/ft_str_isint.c \
+			string/ft_straddc.c \
 			string/ft_strchr.c \
 			string/ft_strdup.c \
 			string/ft_striteri.c \

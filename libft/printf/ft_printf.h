@@ -24,6 +24,7 @@ int	ft_spec_decimal(int n);
 int	ft_spec_unsigned(unsigned int un);
 int	ft_spec_hexalower(unsigned int un);
 int	ft_spec_hexaupper(unsigned int un);
+int	ft_spec_binary(unsigned int un);
 int	ft_putunbr_base(unsigned long ul, char *base);
 
 #endif

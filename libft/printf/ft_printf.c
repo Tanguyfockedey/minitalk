@@ -38,6 +38,8 @@ static int	ft_specifier(char c, va_list args)
 		count = ft_spec_hexalower(va_arg(args, unsigned int));
 	else if (c == 'X')
 		count = ft_spec_hexaupper(va_arg(args, unsigned int));
+	else if (c == 'b')
+		count = ft_spec_binary(va_arg(args, unsigned int));
 	else if (c == '%')
 		count = write(1, &c, 1);
 	return (count);
